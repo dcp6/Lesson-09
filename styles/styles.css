@@ -1,0 +1,35 @@
+body {
+    font-family:Roboto, sans-serif;
+}
+
+header {
+    display:flex;
+    flex-flow: row wrap;
+}
+header img {
+    width:75px;
+    margin-right: 10px;
+}
+form {
+    width:40%;
+}
+button, input, select, textarea
+
+h1 {
+    display:inline;
+    margin-bottom:0px;
+}
+h5 {
+    margin-bottom:auto;
+}
+{   font-family: inherit; 
+    font-size: 100%;
+}
+input:focus {
+    border:3px dotted blue;
+}
+input[type="submit"]:active {
+    outline:none;
+    border:3px solid yellow;
+}
+
