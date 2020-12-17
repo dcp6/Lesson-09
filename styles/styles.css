@@ -14,7 +14,9 @@ form {
     width:40%;
 }
 button, input, select, textarea
-
+{   font-family: inherit; 
+    font-size: 100%;
+}
 h1 {
     display:inline;
     margin-bottom:0px;
@@ -22,9 +24,7 @@ h1 {
 h5 {
     margin-bottom:auto;
 }
-{   font-family: inherit; 
-    font-size: 100%;
-}
+
 input:focus {
     border:3px dotted blue;
 }
